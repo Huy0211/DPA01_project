@@ -53,6 +53,13 @@ docker-compose up -d
 - Lấy dữ liệu từ bảng `transformed_data`
 - Load dữ liệu vào bảng `data_warehouse`
 
+## Hướng dẫn nếu không thấy database
+- B1: Right Click vào PostgreSQL 18
+- B2: Chọn Properties
+- B3: Chọn tab Connection
+- B4: Ở mục Port, chuyển sang 5434
+- B5: Disconnect và Connect lại vào Postgres
+
 ## Dừng services
 ```bash
 docker-compose down
