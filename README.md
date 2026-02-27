@@ -33,7 +33,7 @@ docker-compose up -d
 
 ### 3. Chạy DAG
 - Vào Airflow UI
-- Tìm DAG `fin_etl_project`
+- Tìm DAG `etl_pipeline`
 - Bật DAG và trigger run
 
 ## Mô tả pipeline
